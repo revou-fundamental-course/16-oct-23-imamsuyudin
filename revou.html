@@ -61,11 +61,36 @@
     <section id="contact" class="contact">
       <h2>Message Us</h2>
       
+      <div class="kontak">
       <form action="">
-        <label for="Username">Username :</label>
-        <input type="text" id="Username">
+        <div class="biodata1">
+          <label for="tgl">Nama :</label>
+          <input type="text" placeholder="Nama :">
+        </div>
+
+        <div class="biodata2">
+          <label for="tgl">Tanggallahir :</label><input type="date" placeholder="tgl">
+        </div>
+
+        <div class="biodata3">
+          <label for="tgl"> Jenis kelamin :</label>
+          <input type="radio" name="pria" value="pria"><label for="pria">pria</label>
+          <input type="radio" name="wanita" value="wanita"><label for="wanita">wanita</label>
+        </div>
+
+      <div class="pesan">
+        <label for="saran">Pesan</label><textarea name="pesan" cols="30" rows="10"></textarea>
+      </div> 
+
+        <button type="submit" class="button">Submit</button>
+      
       </form>
+    </div>
     </section>
+
+    <div class="footer">
+      <p>Created by <a href="">Imamsuyudin</a>@copy; 2023</p>
+    </div>
 
 </body>
 </html>

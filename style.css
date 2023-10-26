@@ -65,7 +65,7 @@ table {
 body{
     background-color: #dce22f;
     font-family: 'Poppins', sans-serif;
-    height: 2000px;    
+      
 }
 
 .navbar{
@@ -161,8 +161,43 @@ p{
     margin-top: 2rem;
 }
 
+.form1{
+    max-width: px;
+    margin: 15px;
+    display: flex;
+}
+
+.kontak{
+    background-color: #76776c;
+    color: #fff;
+    max-width: 1500px;
+    margin-top: 2rem;
+}
+
+.biodata1 ,.biodata2,.biodata3{
+    margin: 12px;
+}
+
+.pesan label, textarea{
+    margin: 12px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.button{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
 
 
+.footer p{
+    background-color: #000000;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    padding-top: 10px;
+}
 
 .navbar .nav-list a:hover{
     color: #76776c;
